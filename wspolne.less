@@ -1,0 +1,248 @@
+@odleglosc: 5px;
+@font: 'Georgia';
+@font-size: 10px;
+
+.margines {
+    margin-bottom: (@odleglosc*2);
+    margin-left: (@odleglosc*2);
+    margin-right: (@odleglosc*2);
+    margin-top: (@odleglosc*2);
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    margin-bottom: (@odleglosc*2);
+    margin-top: (@odleglosc*2);
+}
+
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: (@odleglosc*4);
+    left:(@odleglosc*4);
+    right: (@odleglosc*4);
+    .margines;
+    text-align: center;
+}
+
+section#s1 {
+    position: relative;
+    width: 70%;
+    margin-bottom: (@odleglosc*50);
+    margin-left: 27%;
+    margin-right:3%;
+    margin-top: (@odleglosc*30);
+}
+
+section#zawartosc {
+    position: absolute;
+    top: (@odleglosc*30);
+    left: 2%;
+    width: 20%;
+    margin-bottom: (@odleglosc*2);
+}
+section#data {
+    .section;
+}
+
+section#licznik {
+    .section;
+}
+
+section#linki {
+    .section;
+}
+
+section#footer1 {
+    margin-top:(@odleglosc*2);
+    margin-left:(@odleglosc*30);
+    width:30%;
+}
+
+section#footer2 {
+    position: absolute;
+    top: 0px;
+    right: (@odleglosc*30);
+    width: 30%;
+}
+
+footer {
+    position: absolute;
+    bottom: (@odleglosc*4);
+    right: (@odleglosc*4);
+    left: (@odleglosc*4);
+}
+
+.clear {
+    clear: both;
+    float:none;
+}
+
+h1 {
+    font-family: @font;
+    font-size: (@font-size*2.6);
+    color: midnightblue;
+    .margines;
+}
+
+h2 {
+    font-family: @font;
+    font-size: (@font-size*2);
+    color: black;
+    .margines;
+    text-align: center;
+}
+
+h3 {
+    font-family: @font;
+    font-size: (@font-size*1.8);
+    font-weight: bold;
+    color: black;
+    .margines;
+    text-align: center;
+}
+
+p{
+    font-family: @font;
+    font-size: (@font-size*1.6);
+    font-weight: bold;
+    color: midnightblue;
+    .margines;
+
+    contact {
+        font-size: (@font-size*1.1);
+    }
+}
+
+ul#szlaki {
+    margin-bottom: (@odleglosc*2);
+    font-family: @font;
+    font-size: (@font-size*1.6);
+    font-weight: bold;
+    color: midnightblue;
+    .margines;
+}
+
+a {
+    font-family: @font;
+    font-size: (@font-size*1.6);
+    font-weight: bold;
+    color: midnightblue;
+    .margines;
+
+    :visited {
+        color: darkslateblue;
+    }
+    :hover {
+        color: red;
+    }
+}
+
+img#banner {
+    float: right;
+    .margines;
+}
+
+div#schronisko {
+    float: right;
+    .margines;
+    background-size: cover;
+    width: 202px;
+    height: 302px;
+}
+
+img#mapa {
+    float: top;
+    .margines;
+    position: relative;
+    left: (@odleglosc*14);
+    width: (@odleglosc*60); 
+}
+
+img#wnetrze {
+    float: left;
+    .margines;
+    width: (@odleglosc*80);
+}
+
+img#schronisko3 {
+    float: right;
+    .margines;
+    width: (@odleglosc*25);
+}
+
+img#schronisko4 {
+    .margines;
+    width: (@odleglosc*120);
+}
+
+img#dawcy {
+    float:left;
+    .margines;
+    width: (@odleglosc*40);
+}
+
+img#poczta {
+    width: (@odleglosc*8);
+    float: left;
+    .margines;
+}
+
+.bordered {
+    border-radius: (@odleglosc*4);
+}
+
+.formularz{
+    border: solid 1px darkgreen;
+    background-color: gainsboro;
+    .margines;
+    border-radius: (@odleglosc*2);
+    height: (@odleglosc*7);
+    width: 60%;
+    font-family: @font;
+    font-size: (@font-size*1.8);
+}
+
+.tresc {
+    height: (@odleglosc*30);
+}
+
+.szlak {
+    height: 6px;
+    border-top:4px solid white;
+    border-bottom: 4px solid white;
+    border-left: none;
+    border-right: none;
+    width: (@odleglosc*4);
+    display: inline-block;
+}
+
+.czerwony {
+    background-color: red;
+}
+
+.zielony {
+    background-color: green;
+}
+
+.zolty {
+    background-color: yellow;
+}
+.czarny {
+    background-color: black;
+}
+.niebieski {
+    background-color: blue;
+}
+

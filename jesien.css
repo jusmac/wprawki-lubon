@@ -1,0 +1,14 @@
+body{
+    background-image: url(/Lubon/img/jesien.jpg);
+}
+ 
+div#schronisko {
+    background-image: url(/Lubon/img/schroniskojesien.jpg);
+}
+
+
+.bordered {
+    border: solid 2px rgba(252, 192, 103, 1); 
+    background-color: rgba(252, 192, 103, 0.8);
+    box-shadow: 10px 10px 5px rgba(252, 192, 103, 0.3);
+}

@@ -1,0 +1,13 @@
+body{
+    background-image: url(/Lubon/img/schronisko2.jpg);
+}
+ 
+div#schronisko {
+   background-image: url(/Lubon/img/schronisko.jpg);
+}
+
+.bordered {
+    border: solid 2px rgba(176, 240, 130, 1); 
+    background-color: rgba(176, 240, 130, 0.8);
+    box-shadow: 10px 10px 5px rgba(176, 240, 130, 0.3);
+}

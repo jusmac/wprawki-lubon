@@ -1,0 +1,13 @@
+body{
+    background-image: url(/Lubon/img/schroniskozima.jpg);
+}
+
+div#schronisko {
+    background-image: url(/Lubon/img/schroniskosnieg.jpg);
+}
+
+.bordered {
+    border: solid 2px rgba(210, 232, 252, 1); 
+    background-color: rgba(210, 232, 252, 0.8);
+    box-shadow: 10px 10px 5px rgba(210, 232, 252, 0.3);
+}
